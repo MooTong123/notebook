@@ -25,4 +25,8 @@
 1.看到b站数据分析第二章第六节：Numpy数组操作
 
 11.18
-1.发现李沐大神b站讲的斯坦福大学 Practical_Machine_Learning的课程，去standford官网下载课件，上传到github(/CS329P_Practical_Machine_Learning)，准备结合经验好好看看，查漏补缺
+1.发现李沐大神b站讲的斯坦福大学 Practical_Machine_Learning的课程，去standford官网下载课件，上传到github(/CS329P_Practical_Machine_Learning)，准备结合经验好好看看，查漏补缺。
+2. 晚上学习了三节课程，1.2 introduction 概述，1.3 data acquisition 收集数据，2.1 web scraping 数据抓取
+
+11.19
+1. 学习了Practical_ML的2.2 data labeling 数据标注的问题
