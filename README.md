@@ -49,3 +49,11 @@
 
 11.29
 1. 开始读《python数据分析》，从第1章看到了4.6节。
+
+11.30
+1. 读《python数据分析》, 看完第四章numpy基础
+2. 学习了Practical_ML的6.2过拟合和欠拟合
+
+12.01
+1. 读《python数据分析》, 看完第5章，pandas基础。
+2. 学习了Practical_ML的6.3 model validation 模型验证
