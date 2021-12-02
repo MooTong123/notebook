@@ -57,3 +57,7 @@
 12.01
 1. 读《python数据分析》, 看完第5章，pandas基础。
 2. 学习了Practical_ML的6.3 model validation 模型验证
+
+12.02
+1. 读《python数据分析》, 看完第6章，pandas数据加载、存储文件格式。
+2. 整理《python数据分析》第5章pandas基础的思维导图，网址 https://docs.qq.com/mind/DY0tNTFJacndWcWx1
