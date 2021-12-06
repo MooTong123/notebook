@@ -61,3 +61,10 @@
 12.02
 1. 读《python数据分析》, 看完第6章，pandas数据加载、存储文件格式。
 2. 整理《python数据分析》第5章pandas基础的思维导图，网址 https://docs.qq.com/mind/DY0tNTFJacndWcWx1
+
+12.03
+1.整理《python数据分析》第6章pandas数据加载存储文件格式的思维导图，【腾讯文档】Chapter 6：pandas数据加载、存储与文件格式
+https://docs.qq.com/mind/DY29MalNZRG13TlRE
+
+12.06
+1.1.整理《python数据分析》第7章pandas数据清洗的思维导图，【腾讯文档】https://docs.qq.com/mind/DY09pRU1iWmtUS1py
