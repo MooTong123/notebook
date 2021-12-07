@@ -68,3 +68,6 @@ https://docs.qq.com/mind/DY29MalNZRG13TlRE
 
 12.06
 1.1.整理《python数据分析》第7章pandas数据清洗的思维导图，【腾讯文档】https://docs.qq.com/mind/DY09pRU1iWmtUS1py
+
+12.07
+1. 读《python数据分析》,第八章数据规整：聚合合并和重塑
