@@ -71,3 +71,4 @@ https://docs.qq.com/mind/DY29MalNZRG13TlRE
 
 12.07
 1. 读《python数据分析》,第八章数据规整：聚合合并和重塑
+2. 学习了Practical_ML的7.1 bias and variance 偏差方差
