@@ -72,3 +72,11 @@ https://docs.qq.com/mind/DY29MalNZRG13TlRE
 12.07
 1. 读《python数据分析》,第八章数据规整：聚合合并和重塑
 2. 学习了Practical_ML的7.1 bias and variance 偏差方差
+
+12.08
+1.整理《python数据分析》第8章pandas数据整合：聚合合并和重塑的思维导图，【腾讯文档】https://docs.qq.com/mind/DY2JXVkJmSUtPYktT
+2. 学习了Practical_ML的7.2 bagging
+
+12.09
+1. 读《python数据分析》,第九章 绘图和可视化（matplotlib）
+2. 学习了Practical_ML的7.3 boosting
