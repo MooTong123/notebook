@@ -67,10 +67,10 @@
 https://docs.qq.com/mind/DY29MalNZRG13TlRE
 
 12.06
-1.1.整理《python数据分析》第7章pandas数据清洗的思维导图，【腾讯文档】https://docs.qq.com/mind/DY09pRU1iWmtUS1py
+1.整理《python数据分析》第7章pandas数据清洗的思维导图，【腾讯文档】https://docs.qq.com/mind/DY09pRU1iWmtUS1py
 
 12.07
-1. 读《python数据分析》,第八章数据规整：聚合合并和重塑
+1. 读《python数据分析》,第8章数据规整：聚合合并和重塑
 2. 学习了Practical_ML的7.1 bias and variance 偏差方差
 
 12.08
@@ -78,5 +78,10 @@ https://docs.qq.com/mind/DY29MalNZRG13TlRE
 2. 学习了Practical_ML的7.2 bagging
 
 12.09
-1. 读《python数据分析》,第九章 绘图和可视化（matplotlib）
+1. 读《python数据分析》,第9章 绘图和可视化（matplotlib）
 2. 学习了Practical_ML的7.3 boosting
+
+12.10
+1. 整理《python数据分析》第9章pandas数据清洗的思维导图，【腾讯文档】Chapter 9：绘图和可视化
+https://docs.qq.com/mind/DY0VNSmNObERGcFdJ
+2. 学习了Practical_ML的7.4 stacking
