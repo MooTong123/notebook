@@ -85,3 +85,6 @@ https://docs.qq.com/mind/DY29MalNZRG13TlRE
 1. 整理《python数据分析》第9章pandas数据清洗的思维导图，【腾讯文档】Chapter 9：绘图和可视化
 https://docs.qq.com/mind/DY0VNSmNObERGcFdJ
 2. 学习了Practical_ML的7.4 stacking
+
+12.14
+1. 读《python数据分析》,第10章 pandas数据聚合与分组运算（groupby）
