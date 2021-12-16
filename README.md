@@ -91,3 +91,7 @@ https://docs.qq.com/mind/DY0VNSmNObERGcFdJ
 
 12.15
 1. 整理《python数据分析》第10章数据聚合与分组运算的思维导图，https://docs.qq.com/mind/DY0diWUNjSGxrSExY
+
+12.16
+1.学习了Practical_ML的12.1 model tuning 和12.2 HPO algorithms
+2.读《python数据分析》,第11章 pandas时间序列 的11.2节
