@@ -98,3 +98,10 @@ https://docs.qq.com/mind/DY0VNSmNObERGcFdJ
 
 12.17
 1. 精读Transformer论文：Attention is all you need
+
+12.20
+1. 读《python数据分析》,第11章 pandas时间序列 的11.4节
+2. 学习nlp课程01day
+
+12.21
+1. 读完《python数据分析》,第11章 pandas时间序列，整理笔记到11.4节
