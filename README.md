@@ -116,3 +116,12 @@ https://docs.qq.com/mind/DY1JhZHBycUdMTnJQ
 https://docs.qq.com/mind/DY2ZKbHliTEJGc0h3
 
 12.24
+1. 学习了Practical_ML的12.3 NAS algorithms
+
+12.27
+1. 读完《python数据分析》,第13章 python建模库介绍，并整理完思维导图【腾讯文档】Chapter 13：Python建模库介绍
+https://docs.qq.com/mind/DY2hPTkxnYUdqRWVk
+
+11.28
+1. 读完《python数据分析》,第14章数据分析案例，14.1数据
+2. 看b站ML视频，P6 数据集的介绍
