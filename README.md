@@ -123,5 +123,9 @@ https://docs.qq.com/mind/DY2ZKbHliTEJGc0h3
 https://docs.qq.com/mind/DY2hPTkxnYUdqRWVk
 
 11.28
-1. 读完《python数据分析》,第14章数据分析案例，14.1数据
+1. 读《python数据分析》,第14章数据分析案例，14.1数据案例
 2. 看b站ML视频，P6 数据集的介绍
+
+11.29
+1. 读《python数据分析》,第14章数据分析案例，14.2数据案例
+2. 看b站ML视频，P17 基础绘图演示
