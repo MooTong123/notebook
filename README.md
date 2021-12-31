@@ -122,10 +122,17 @@ https://docs.qq.com/mind/DY2ZKbHliTEJGc0h3
 1. 读完《python数据分析》,第13章 python建模库介绍，并整理完思维导图【腾讯文档】Chapter 13：Python建模库介绍
 https://docs.qq.com/mind/DY2hPTkxnYUdqRWVk
 
-11.28
+12.28
 1. 读《python数据分析》,第14章数据分析案例，14.1数据案例
 2. 看b站ML视频，P6 数据集的介绍
 
-11.29
+12.29
 1. 读《python数据分析》,第14章数据分析案例，14.2数据案例
 2. 看b站ML视频，P17 基础绘图演示
+
+12.30
+1. 读《python数据分析》,第14章数据分析案例，14.3数据案例
+
+12.31
+1. 学习了Practical_ML的13.1 batch norm和layer norm
+2. 读《python数据分析》,第14章数据分析案例，14.4数据案例
