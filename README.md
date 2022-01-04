@@ -136,3 +136,10 @@ https://docs.qq.com/mind/DY2hPTkxnYUdqRWVk
 12.31
 1. 学习了Practical_ML的13.1 batch norm和layer norm
 2. 读《python数据分析》,第14章数据分析案例，14.4数据案例
+
+2022年
+01.04
+1. 读《python数据分析》,第14章数据分析案例，14.5数据案例
+【腾讯文档】Chapter 14 数据分析案例
+https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
+2. 看b站ML视频，P25 numpy ndarray
