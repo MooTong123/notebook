@@ -142,4 +142,7 @@ https://docs.qq.com/mind/DY2hPTkxnYUdqRWVk
 1. 读《python数据分析》,第14章数据分析案例，14.5数据案例
 【腾讯文档】Chapter 14 数据分析案例
 https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
-2. 看b站ML视频，P25 numpy ndarray
+2. 看b站ML视频，看到P25 numpy ndarray
+
+01.05
+1. 看b站ML视频，看到P27 ndarray reshape 
