@@ -146,3 +146,6 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 
 01.05
 1. 看b站ML视频，看到P27 ndarray reshape 
+
+01.06
+1. 测试H2O flow产品，写完测试文档。
