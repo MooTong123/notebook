@@ -153,3 +153,6 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 01.07
 1. 看b站ML视频，看到P39 DataFrame索引 
 2. 学习了Practical_ML的14.1 迁移学习 transfer learning
+
+1.10
+1. 看b站ML视频，看到P52 Pandas透视表
