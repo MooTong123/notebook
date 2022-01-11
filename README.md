@@ -156,3 +156,6 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 
 1.10
 1. 看b站ML视频，看到P52 Pandas透视表
+
+1.11
+1. 看统计学习方法，第一章，监督学习的基础概念
