@@ -162,3 +162,9 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 
 1.12
 1. 看b站ML视频，看到P62 kNN
+
+1.13
+1. 看b站ML视频，看到P77 grid Search
+
+1.14
+1. 看b站ML视频，看到P95 模型保存
