@@ -168,3 +168,6 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 
 1.14
 1. 看b站ML视频，看到P95 模型保存
+
+1.17
+1. 看b站ML视频，看到P107 决策树，信息增益
