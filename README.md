@@ -172,3 +172,7 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 1.17
 1. 看b站ML视频，看到P107 决策树，信息增益
 2. 学习了Practical_ML的14.1 fine tuning for cv
+
+1.18
+1. 看b站ML视频，看到P120 集成学习
+2. 学习了Practical_ML的14.2 fine tuning for nlp
