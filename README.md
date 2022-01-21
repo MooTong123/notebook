@@ -184,3 +184,6 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 1.20
 1. 整理numpy用户文档
 2. 看b站ML视频，看到P128 xgb
+
+1.21
+1. 整理numpy用户文档(整理完成)
