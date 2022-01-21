@@ -180,3 +180,7 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 1. 学习了Practical_ML的14.2 fine tuning for nlp
 2. 整理numpy用户文档，在data_mining中
 3. 看b站ML视频，看到P125 boosting
+
+1.20
+1. 整理numpy用户文档
+2. 看b站ML视频，看到P128 xgb
