@@ -187,3 +187,6 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 
 1.21
 1. 整理numpy用户文档(整理完成)
+
+1.25
+1. 看b站ML视频，看到P131 kmeans
