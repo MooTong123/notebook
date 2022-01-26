@@ -190,3 +190,6 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 
 1.25
 1. 看b站ML视频，看到P131 kmeans
+
+1.26
+1. 看b站ML视频，看到P136 降维
