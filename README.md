@@ -201,4 +201,7 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 1. 整理pandas文档，搭好框架，共11部分
 
 1.29
-1. 整理pandas文档，整理到第四部分Pandas画图
+1. 整理pandas文档，整理到第4部分Pandas画图
+
+2.07
+1.整理pandas文档，整理到第6部分Pandas缺失值
