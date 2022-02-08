@@ -205,3 +205,6 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 
 2.07
 1.整理pandas文档，整理到第6部分Pandas缺失值
+
+2.08
+1.整理pandas文档，整理到第9部分Pandas交叉表和透视表
