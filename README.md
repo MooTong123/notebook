@@ -211,3 +211,8 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 
 2.09
 1. 整理pandas文档，整理到第11部分Pandas时间序列
+2. 读一篇博客 https://perceiving-systems.blog/en/post/novelty-in-science
+
+2.10
+1. 精度BERT论文
+2. 整理pandas完文档，整理到第12部分Pandas案例
