@@ -216,3 +216,7 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 2.10
 1. 精度BERT论文
 2. 整理pandas完文档，整理到第12部分Pandas案例
+
+2.11
+1. 复习BERT论文，看笔记
+2. 整理matplotlib文档
