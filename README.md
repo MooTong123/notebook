@@ -220,3 +220,8 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 2.11
 1. 复习BERT论文，看笔记
 2. 整理matplotlib文档
+
+2.14
+1. 读博客，三年算法工程师总结：
+https://zhuanlan.zhihu.com/p/453800419
+2. 整理matplotlib文档，整理到散点图
