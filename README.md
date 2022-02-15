@@ -225,3 +225,7 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 1. 读博客，三年算法工程师总结：
 https://zhuanlan.zhihu.com/p/453800419
 2. 整理matplotlib文档，整理到散点图
+
+2.15
+1. 整理完matplotlib文档
+2. 看b站matplotlib讲解视频，添加一些使用技巧。
