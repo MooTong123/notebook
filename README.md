@@ -229,3 +229,9 @@ https://zhuanlan.zhihu.com/p/453800419
 2.15
 1. 整理完matplotlib文档
 2. 看b站matplotlib讲解视频，添加一些使用技巧。
+
+2.16
+1. 看完b站seaborn的初步讲解
+2. 整理seaborn文档，搭好框架
+3. 找到一个好文章，Python工匠：python的编程经验分享，准备找时间读完
+https://github.com/piglei/one-python-craftsman
