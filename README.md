@@ -235,3 +235,6 @@ https://zhuanlan.zhihu.com/p/453800419
 2. 整理seaborn文档，搭好框架
 3. 找到一个好文章，Python工匠：python的编程经验分享，准备找时间读完
 https://github.com/piglei/one-python-craftsman
+
+
+2.17
