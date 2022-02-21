@@ -218,7 +218,7 @@ https://docs.qq.com/mind/DY1R4dHlodExjQ1hz
 2. 整理pandas完文档，整理到第12部分Pandas案例
 
 2.11
-1. 复习BERT论文，看笔记
+1. 复习BERT论文，看笔记整理seaborn文档到第二部分关系绘图relplot
 2. 整理matplotlib文档
 
 2.14
@@ -238,4 +238,11 @@ https://github.com/piglei/one-python-craftsman
 
 
 2.17
-1.
+1.读文章，如何成为CTO。https://mp.weixin.qq.com/s/SJsJ-3-sACv8C8p8y2d2Iw
+2.整理seaborn文档到第二部分关系绘图relplot
+
+2.21
+1. 整理seaborn文档到第5部分线性关系绘图
+2. 读《统计学习方法》，读到1.3章
+	（1）了解判别模型和生成模型的区别！
+	（2）复习MLE极大似然估计和贝叶斯估计的区别！
