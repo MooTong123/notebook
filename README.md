@@ -250,3 +250,11 @@ https://github.com/piglei/one-python-craftsman
 2.22
 1. 读《统计学习方法》，读完第1章和第二章感知机（推导公式需要手推）
 2.整理seaborn文档到第7部分seaborn风格设置
+
+2.23
+1.读《统计学习方法》，读完第3章KNN和第4章朴素贝叶斯。
+	（1）kd树
+	（2）贝叶斯定理和朴素贝叶斯
+	（3）贝叶斯估计和极大似然估计
+2. 整理完成seaborn用户文档
+3. 准备kaggle中titanic
