@@ -257,4 +257,4 @@ https://github.com/piglei/one-python-craftsman
 	（2）贝叶斯定理和朴素贝叶斯
 	（3）贝叶斯估计和极大似然估计
 2. 整理完成seaborn用户文档
-3. 准备kaggle中titanic
+3. 准备kaggle中titanic数据挖掘问题
