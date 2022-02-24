@@ -258,3 +258,6 @@ https://github.com/piglei/one-python-craftsman
 	（3）贝叶斯估计和极大似然估计
 2. 整理完成seaborn用户文档
 3. 准备kaggle中titanic数据挖掘问题
+
+2.24
+1.读《统计学习方法》，读完第5章决策树
