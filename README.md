@@ -261,3 +261,4 @@ https://github.com/piglei/one-python-craftsman
 
 2.24
 1.读《统计学习方法》，读完第5章决策树
+2. 整理titanic数据挖掘，写完第二部分收集数据
