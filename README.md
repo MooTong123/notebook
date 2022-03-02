@@ -268,11 +268,13 @@ https://github.com/piglei/one-python-craftsman
 
 2.28
 1. 读《统计学习方法》，读完第6章逻辑回归
-2. 整理机器学习笔记到腾讯文档，整理KNN 【腾讯文档】机器学习总览
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）KNN 
+	【腾讯文档】机器学习总览
 https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 
-2.29
+3.1
 1. fork leetcode资料，每天至少一道题，读前序里的一些文章
 	（1）BAT技术面试注意细节
 	（2）互联网大厂研发流程
@@ -281,7 +283,30 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（5）空间复杂度
 	（6）代码的内存消耗
 	
-2. 整理机器学习笔记到腾讯文档，整理线性回归 【腾讯文档】机器学习总览
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）线性回归 
+	（2）梯度下降
+	【腾讯文档】机器学习总览
 https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 3. leetcode 001.twosum
+
+3.2
+1. 整理机器学习笔记到腾讯文档，整理
+	（1）逻辑回归
+	（2）欠拟合和过拟合
+	（3）评估方法
+【腾讯文档】机器学习总览
+https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
+
+2. 博客整理更新
+3. leetcode_master
+	（1）数组理论基础
+	（2）00704.二分法,相关题目00035，00069
+	
+
+
+
+
+3.3
+1. TODO：Pandas文本处理整理
