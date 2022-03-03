@@ -289,7 +289,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	【腾讯文档】机器学习总览
 https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
-3. leetcode 001.twosum
+3. leetcode 001.twosum easy
 
 3.2
 1. 整理机器学习笔记到腾讯文档，整理
@@ -302,11 +302,13 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 2. 博客整理更新
 3. leetcode_master
 	（1）数组理论基础
-	（2）00704.二分法,相关题目00035，00069
-	
-
-
-
+	（2）00704.二分法,相关题目00035，00069 easy
 
 3.3
-1. TODO：Pandas文本处理整理
+1. Pandas文本处理整理
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）决策树（TO DO 回归树）
+
+3. 3. leetcode_master
+	（1）00367.完全平方数 easy
+	（2）00034.在排序数组中查找元素的第一个和最后一个位置 medium  TO DO
