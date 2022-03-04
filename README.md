@@ -300,15 +300,28 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 2. 博客整理更新
-3. leetcode_master
+3. leetcode_master，数组部分习题
 	（1）数组理论基础
 	（2）00704.二分法,相关题目00035，00069 easy
 
 3.3
 1. Pandas文本处理整理
 2. 整理机器学习笔记到腾讯文档，整理
-	（1）决策树（TO DO 回归树）
+	（1）决策树（回归树）
 
-3. 3. leetcode_master
+3. leetcode_master
 	（1）00367.完全平方数 easy
-	（2）00034.在排序数组中查找元素的第一个和最后一个位置 medium  TO DO
+	（2）00034.在排序数组中查找元素的第一个和最后一个位置 medium 
+
+3.4
+1. leetcode_master，数组部分
+	（1）00034 二分法 medium
+	（2）数据第三节：移除元素 27 26 easy 
+	
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）回归树
+	（2）朴素贝叶斯
+	（3）聚类 （KMeans优化 TO DO）
+	
+
+3. Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition 找到电子书 上传
