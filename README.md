@@ -321,7 +321,20 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 2. 整理机器学习笔记到腾讯文档，整理
 	（1）回归树
 	（2）朴素贝叶斯
-	（3）聚类 （KMeans优化 TO DO）
+	（3）聚类 （KMeans优化）
 	
-
 3. Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition 找到电子书 上传
+
+3.5
+1. leetcode_master，数组部分
+	（1）数据第三节：移除元素 
+			283.移动零  esay
+			844.比较含退格的字符串 easy
+			977.有序数组的平方 easy
+
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）聚类 （KMeans优化）
+	（2）特征降维
+	（3）深度学习梯度下降优化方法
+	（4）imbalanced-learn常见API整理
+	（5）集成学习（To DO）
