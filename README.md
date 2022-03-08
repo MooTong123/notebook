@@ -326,15 +326,26 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 3. Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow, 2nd Edition 找到电子书 上传
 
 3.5
-1. leetcode_master，数组部分
-	（1）数据第三节：移除元素 
+1. leetcode_master，
+	（1）数组第3节：移除元素 
 			283.移动零  esay
 			844.比较含退格的字符串 easy
-			977.有序数组的平方 easy
+	（2）数组第4节：977.有序数组的平方 easy
 
 2. 整理机器学习笔记到腾讯文档，整理
 	（1）聚类 （KMeans优化）
 	（2）特征降维
 	（3）深度学习梯度下降优化方法
 	（4）imbalanced-learn常见API整理
-	（5）集成学习（To DO）
+	（5）集成学习
+	
+3.8
+1. leetcode_master
+	（1）数组第5节：滑动窗口
+		209.长度最小的子数组 medium
+		904.水果成篮 medium
+		76. 最小覆盖子串 hard (TO DO)
+
+2. 2. 整理机器学习笔记到腾讯文档，整理
+	（1）集成学习：bagging和随机森林api参数整理
+	（2）集成学习剩下内容（TO DO）
