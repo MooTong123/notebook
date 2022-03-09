@@ -344,8 +344,28 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（1）数组第5节：滑动窗口
 		209.长度最小的子数组 medium
 		904.水果成篮 medium
-		76. 最小覆盖子串 hard (TO DO)
+		76. 最小覆盖子串 hard 
 
-2. 2. 整理机器学习笔记到腾讯文档，整理
+2. 整理机器学习笔记到腾讯文档，整理
 	（1）集成学习：bagging和随机森林api参数整理
-	（2）集成学习剩下内容（TO DO）
+	（2）集成学习剩下内容
+
+3.9
+1. leetcode_master
+	（1）数组第5节：滑动窗口
+		76. 最小覆盖子串 hard
+	（2）数组第6节：循环
+		59. 螺旋矩阵II medium
+		54.螺旋矩阵 medium
+		剑指offer29 easy
+
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）集成学习
+	（2）Adaboost
+	（3）GBDT
+
+
+3.10
+1. 整理机器学习笔记到腾讯文档，整理
+	（1）XGBoost (To DO)
+	（2）LightGBM (TO DO)
