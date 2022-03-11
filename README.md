@@ -301,8 +301,11 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 2. 博客整理更新
 3. leetcode_master，数组部分习题
-	（1）数组理论基础
-	（2）00704.二分法,相关题目00035，00069 easy
+	（1）数组第1节：数组理论基础
+	（2）数组第2节：
+		00704.二分法 easy
+		00035.搜索插入位置 easy
+		00069.x 的平方根  easy
 
 3.3
 1. Pandas文本处理整理
@@ -310,13 +313,14 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（1）决策树（回归树）
 
 3. leetcode_master
-	（1）00367.完全平方数 easy
-	（2）00034.在排序数组中查找元素的第一个和最后一个位置 medium 
+	（1）数组第2节：
+		00367.完全平方数 easy
+		00034.在排序数组中查找元素的第一个和最后一个位置 medium 
 
 3.4
 1. leetcode_master，数组部分
-	（1）00034 二分法 medium
-	（2）数据第三节：移除元素 27 26 easy 
+	（1）数组第2节：00034 二分法 medium
+	（2）数组第3节：移除元素 27 26 easy 
 	
 2. 整理机器学习笔记到腾讯文档，整理
 	（1）回归树
@@ -364,8 +368,24 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（2）Adaboost
 	（3）GBDT
 
+3.11
 
-3.10
 1. 整理机器学习笔记到腾讯文档，整理
-	（1）XGBoost (To DO)
+	（1）XGBoost
+	（2）常见问题
+		a）什么是损失函数，代价函数，目标函数
+		b）梯度提升和梯度下降的区别
+	（3）XGB的API（TO DO）
+		
+2. leetcode_master
+	（1）链表第1节：基础知识
+	（2）链表第2节：虚拟头结点
+		203.移除链表元素 easy
+	（3）链表第3节：链表基础知识
+		707.设计链表 medium 单链表和双链表两种解法
+
+
+3.14
+1. 整理机器学习笔记到腾讯文档，整理
+	（1）XGBoost API (TO DO)
 	（2）LightGBM (TO DO)
