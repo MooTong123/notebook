@@ -386,6 +386,20 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 
 3.14
-1. 整理机器学习笔记到腾讯文档，整理
-	（1）XGBoost API (TO DO)
-	（2）LightGBM (TO DO)
+1. leetcode_master
+	（1）链表第4节：反转链表
+		00206.反转链表 easy
+	（2）链表第5节：两两交换链表中的节点
+		00024.两两交换链表中的节点 medium
+
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）XGBoost API，所有的参数理解
+
+
+3.15
+1. leetcode_master
+	（1）
+
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）LightGBM (TODO)	
+	（2）了解决策树的进化史，包含DART是什么
