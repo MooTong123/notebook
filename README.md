@@ -394,12 +394,22 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 2. 整理机器学习笔记到腾讯文档，整理
 	（1）XGBoost API，所有的参数理解
+	（2）了解决策树的进化史，包含DART是什么
 
 
 3.15
 1. leetcode_master
-	（1）
+	（1）链表第6节：删除链表的倒数第N个节点
+		19.删除链表的倒数第N个节点 medium
+	（2）链表第7节：链表相交
+		面试题 02.07. 链表相交 easy
+	（3）链表第8节：环形链表II
+		00142. 环形链表II medium TODO
 
 2. 整理机器学习笔记到腾讯文档，整理
 	（1）LightGBM (TODO)	
-	（2）了解决策树的进化史，包含DART是什么
+
+3.16
+1. leetcode_master
+	（1）链表第8节：环形链表II
+		00142. 环形链表II medium TODO
