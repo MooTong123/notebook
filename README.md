@@ -413,3 +413,14 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. leetcode_master
 	（1）链表第8节：环形链表II
 		00142. 环形链表II medium TODO
+
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）LightGBM 重构(TODO)
+
+3.17
+1. leetcode_master
+	（1）链表第8节：环形链表II
+		00142. 环形链表II medium TODO
+
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）LightGBM 写到工程优化模块(TODO)	
