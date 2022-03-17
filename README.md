@@ -420,7 +420,16 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 3.17
 1. leetcode_master
 	（1）链表第8节：环形链表II
-		00142. 环形链表II medium TODO
+		00142. 环形链表II medium
+	（2）链表总结：重做一遍链表的题
+		00203.移除链表元素 easy
+		00707.链表基本操作 medium
 
 2. 整理机器学习笔记到腾讯文档，整理
-	（1）LightGBM 写到工程优化模块(TODO)	
+	（1）XGB补充
+		a. XGB的工程优化
+		b. XGB和GBDT的优缺点
+	（2）LightGBM 优化
+	（3）LightGBM API参数详解 （TODO）
+	（4）XGB和LightGBM参数调优（TODO）
+	（5）XGB Python API详解 （TODO）
