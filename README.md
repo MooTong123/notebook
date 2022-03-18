@@ -433,3 +433,15 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（3）LightGBM API参数详解 （TODO）
 	（4）XGB和LightGBM参数调优（TODO）
 	（5）XGB Python API详解 （TODO）
+
+3.18
+1. 工作
+
+3.21
+1. leetcode_master
+	（1）链表总结：TODO
+
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）LightGBM API参数详解 （TODO）
+	（2）XGB和LightGBM参数调优（TODO）
+	（3）XGB Python API详解 （TODO）
