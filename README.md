@@ -437,9 +437,15 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 3.18
 1. 工作
 
-3.21
+3.22
 1. leetcode_master
-	（1）链表总结：TODO
+	（1）链表总结：复习
+		虚拟头结点：00203（easy），24（medium）
+		链表基本操作：707（medium）
+		反转链表：206（easy）
+		删除倒数第n个节点：19（medium）
+		链表相交：面试02.07（easy）
+		环形链表：142（medium）
 
 2. 整理机器学习笔记到腾讯文档，整理
 	（1）LightGBM API参数详解 （TODO）
