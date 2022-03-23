@@ -451,3 +451,21 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（1）LightGBM API参数详解 （TODO）
 	（2）XGB和LightGBM参数调优（TODO）
 	（3）XGB Python API详解 （TODO）
+
+3.23
+1. leetcode_master
+	（1）哈希表第一节：理论基础
+		（a) 遇到需要判断一个元素是否出现过的场景也应该第一时间想到哈希法
+		（b) collections 详解：https://blog.csdn.net/weixin_44772440/article/details/122311744?
+	（2）哈希表第一节：有效的字母异位词 00242 easy
+		383.赎金信 easy
+		49.字母异位词分组 medium
+		438.找到字符串中所有字母异位词 medium
+
+
+2. 整理机器学习笔记到腾讯文档，整理
+	（1）LightGBM API参数详解 
+	（2）LightGBM参数调优 未完成（TODO）
+	（3）LightGBM 重点参数（TODO）
+	（4）XGB Python API详解 （TODO）
+	（5）XGB 调优（TODO）
