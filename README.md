@@ -490,3 +490,4 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（5）XGB 调优（TODO）
 
 3. sde_service, 修改flask_test 里面的路径
+4. github 错误
