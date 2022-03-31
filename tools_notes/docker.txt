@@ -1,0 +1,5 @@
+1. 写dockerfile
+docker build -t sde/custom-notebook:v1.0.1 .
+
+2. 建立镜像
+docker run -P -d --name xxx imageId
