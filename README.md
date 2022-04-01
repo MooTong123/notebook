@@ -499,3 +499,9 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1.leetcode_master
 	（1）哈希表第7节：四数相加II 454 medium
 	（2）哈希表第8节：383. 赎金信 easy 用counter做
+
+04.01
+1.leetcode_master
+	（1）哈希表第9节：第15题. 三数之和 medium
+	（2）哈希表第10节：第18题. 四数之和 medium
+
