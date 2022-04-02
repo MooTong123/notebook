@@ -505,3 +505,21 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（1）哈希表第9节：第15题. 三数之和 medium
 	（2）哈希表第10节：第18题. 四数之和 medium
 
+04.02
+1.leetcode_master
+	（1）哈希表总结：重新做一遍
+		## 数组作为哈希表（Counter或defaultdict）
+		* 00242.有效的字母异位词 easy
+		* 00383.赎金信 easy
+		* 00049.字母异位词分组 medium
+		
+		TO DO
+		* 00438.找到字符串中所有字母异位词 medium
+		* 01002.查找常用字符 easy
+		* 00350.两个数组的交集II easy
+		* 00349. 两个数组的交集 easy
+		* 00202.快乐数 easy
+		* 00001.两数之和 easy
+		* 00454. 四数之和 medium
+		* 00015. 三数之和 medium
+		* 00018.四数之和 medium
