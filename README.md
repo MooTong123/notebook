@@ -512,8 +512,10 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 		* 00242.有效的字母异位词 easy
 		* 00383.赎金信 easy
 		* 00049.字母异位词分组 medium
-		
-		TO DO
+
+04.06
+1.leetcode_master
+	（1）哈希表总结：重新做一遍	
 		* 00438.找到字符串中所有字母异位词 medium
 		* 01002.查找常用字符 easy
 		* 00350.两个数组的交集II easy
