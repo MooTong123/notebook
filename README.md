@@ -525,3 +525,11 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 		* 00454. 四数之和 medium
 		* 00015. 三数之和 medium
 		* 00018.四数之和 medium
+
+04.07
+1.leetcode_master
+	（1）字符串第一节：344 反转字符串 easy
+	（2）字符串第二节：541 反转字符串II easy
+	（3）字符串第三节：offer05 替换空格 easy
+
+2.
