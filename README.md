@@ -528,8 +528,12 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 04.07
 1.leetcode_master
-	（1）字符串第一节：344 反转字符串 easy
-	（2）字符串第二节：541 反转字符串II easy
-	（3）字符串第三节：offer05 替换空格 easy
+	（1）字符串第1节：344 反转字符串 easy
+	（2）字符串第2节：541 反转字符串II easy
+	（3）字符串第3节：offer05 替换空格 easy
 
-2.
+04.08
+1.leetcode_master
+	（1）字符串第4节：151.翻转字符串里的单词 medium
+
+2. 进行新冠疫情分析：pyecharts

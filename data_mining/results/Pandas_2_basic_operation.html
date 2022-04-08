@@ -12947,24 +12947,29 @@ ul.typeahead-list  > li > a.pull-right {
 /*# sourceMappingURL=style.min.css.map */
     </style>
 <style type="text/css">
-    .highlight .hll { background-color: #ffffcc }
-.highlight  { background: #f8f8f8; }
-.highlight .c { color: #408080; font-style: italic } /* Comment */
+    pre { line-height: 125%; }
+td.linenos .normal { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+span.linenos { color: inherit; background-color: transparent; padding-left: 5px; padding-right: 5px; }
+td.linenos .special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+span.linenos.special { color: #000000; background-color: #ffffc0; padding-left: 5px; padding-right: 5px; }
+.highlight .hll { background-color: #ffffcc }
+.highlight { background: #f8f8f8; }
+.highlight .c { color: #3D7B7B; font-style: italic } /* Comment */
 .highlight .err { border: 1px solid #FF0000 } /* Error */
 .highlight .k { color: #008000; font-weight: bold } /* Keyword */
 .highlight .o { color: #666666 } /* Operator */
-.highlight .ch { color: #408080; font-style: italic } /* Comment.Hashbang */
-.highlight .cm { color: #408080; font-style: italic } /* Comment.Multiline */
-.highlight .cp { color: #BC7A00 } /* Comment.Preproc */
-.highlight .cpf { color: #408080; font-style: italic } /* Comment.PreprocFile */
-.highlight .c1 { color: #408080; font-style: italic } /* Comment.Single */
-.highlight .cs { color: #408080; font-style: italic } /* Comment.Special */
+.highlight .ch { color: #3D7B7B; font-style: italic } /* Comment.Hashbang */
+.highlight .cm { color: #3D7B7B; font-style: italic } /* Comment.Multiline */
+.highlight .cp { color: #9C6500 } /* Comment.Preproc */
+.highlight .cpf { color: #3D7B7B; font-style: italic } /* Comment.PreprocFile */
+.highlight .c1 { color: #3D7B7B; font-style: italic } /* Comment.Single */
+.highlight .cs { color: #3D7B7B; font-style: italic } /* Comment.Special */
 .highlight .gd { color: #A00000 } /* Generic.Deleted */
 .highlight .ge { font-style: italic } /* Generic.Emph */
-.highlight .gr { color: #FF0000 } /* Generic.Error */
+.highlight .gr { color: #E40000 } /* Generic.Error */
 .highlight .gh { color: #000080; font-weight: bold } /* Generic.Heading */
-.highlight .gi { color: #00A000 } /* Generic.Inserted */
-.highlight .go { color: #888888 } /* Generic.Output */
+.highlight .gi { color: #008400 } /* Generic.Inserted */
+.highlight .go { color: #717171 } /* Generic.Output */
 .highlight .gp { color: #000080; font-weight: bold } /* Generic.Prompt */
 .highlight .gs { font-weight: bold } /* Generic.Strong */
 .highlight .gu { color: #800080; font-weight: bold } /* Generic.Subheading */
@@ -12977,15 +12982,15 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .kt { color: #B00040 } /* Keyword.Type */
 .highlight .m { color: #666666 } /* Literal.Number */
 .highlight .s { color: #BA2121 } /* Literal.String */
-.highlight .na { color: #7D9029 } /* Name.Attribute */
+.highlight .na { color: #687822 } /* Name.Attribute */
 .highlight .nb { color: #008000 } /* Name.Builtin */
 .highlight .nc { color: #0000FF; font-weight: bold } /* Name.Class */
 .highlight .no { color: #880000 } /* Name.Constant */
 .highlight .nd { color: #AA22FF } /* Name.Decorator */
-.highlight .ni { color: #999999; font-weight: bold } /* Name.Entity */
-.highlight .ne { color: #D2413A; font-weight: bold } /* Name.Exception */
+.highlight .ni { color: #717171; font-weight: bold } /* Name.Entity */
+.highlight .ne { color: #CB3F38; font-weight: bold } /* Name.Exception */
 .highlight .nf { color: #0000FF } /* Name.Function */
-.highlight .nl { color: #A0A000 } /* Name.Label */
+.highlight .nl { color: #767600 } /* Name.Label */
 .highlight .nn { color: #0000FF; font-weight: bold } /* Name.Namespace */
 .highlight .nt { color: #008000; font-weight: bold } /* Name.Tag */
 .highlight .nv { color: #19177C } /* Name.Variable */
@@ -13002,11 +13007,11 @@ ul.typeahead-list  > li > a.pull-right {
 .highlight .dl { color: #BA2121 } /* Literal.String.Delimiter */
 .highlight .sd { color: #BA2121; font-style: italic } /* Literal.String.Doc */
 .highlight .s2 { color: #BA2121 } /* Literal.String.Double */
-.highlight .se { color: #BB6622; font-weight: bold } /* Literal.String.Escape */
+.highlight .se { color: #AA5D1F; font-weight: bold } /* Literal.String.Escape */
 .highlight .sh { color: #BA2121 } /* Literal.String.Heredoc */
-.highlight .si { color: #BB6688; font-weight: bold } /* Literal.String.Interpol */
+.highlight .si { color: #A45A77; font-weight: bold } /* Literal.String.Interpol */
 .highlight .sx { color: #008000 } /* Literal.String.Other */
-.highlight .sr { color: #BB6688 } /* Literal.String.Regex */
+.highlight .sr { color: #A45A77 } /* Literal.String.Regex */
 .highlight .s1 { color: #BA2121 } /* Literal.String.Single */
 .highlight .ss { color: #19177C } /* Literal.String.Symbol */
 .highlight .bp { color: #008000 } /* Name.Builtin.Pseudo */
@@ -13074,6 +13079,14 @@ div#notebook {
   <div tabindex="-1" id="notebook" class="border-box-sizing">
     <div class="container" id="notebook-container">
 
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><h1>Pandas 基础操作<span class="tocSkip"></span></h1></p>
+<div class="toc"><ul class="toc-item"><li><span><a href="#1-Pandas-基本数据操作" data-toc-modified-id="1-Pandas-基本数据操作-1">1 Pandas 基本数据操作</a></span><ul class="toc-item"><li><span><a href="#1.1-索引操作" data-toc-modified-id="1.1-索引操作-1.1">1.1 索引操作</a></span><ul class="toc-item"><li><span><a href="#1.1.1-直接使用列行索引的名字（先列后行）" data-toc-modified-id="1.1.1-直接使用列行索引的名字（先列后行）-1.1.1">1.1.1 直接使用列行索引的名字（先列后行）</a></span></li><li><span><a href="#1.1.2-结合loc和iloc使用索引（推荐）" data-toc-modified-id="1.1.2-结合loc和iloc使用索引（推荐）-1.1.2">1.1.2 结合loc和iloc使用索引（推荐）</a></span></li><li><span><a href="#1.1.3-组合使用索引" data-toc-modified-id="1.1.3-组合使用索引-1.1.3">1.1.3 组合使用索引</a></span></li></ul></li><li><span><a href="#1.2-赋值操作" data-toc-modified-id="1.2-赋值操作-1.2">1.2 赋值操作</a></span></li><li><span><a href="#1.3-排序操作" data-toc-modified-id="1.3-排序操作-1.3">1.3 排序操作</a></span><ul class="toc-item"><li><span><a href="#1.3.1-Series-排序" data-toc-modified-id="1.3.1-Series-排序-1.3.1">1.3.1 Series 排序</a></span></li><li><span><a href="#1.3.2-DataFrame排序" data-toc-modified-id="1.3.2-DataFrame排序-1.3.2">1.3.2 DataFrame排序</a></span></li></ul></li><li><span><a href="#1.4-运算操作" data-toc-modified-id="1.4-运算操作-1.4">1.4 运算操作</a></span><ul class="toc-item"><li><span><a href="#1.4.1-算术运算" data-toc-modified-id="1.4.1-算术运算-1.4.1">1.4.1 算术运算</a></span></li><li><span><a href="#1.4.2-逻辑运算" data-toc-modified-id="1.4.2-逻辑运算-1.4.2">1.4.2 逻辑运算</a></span><ul class="toc-item"><li><span><a href="#1.4.2.1-逻辑运算符号" data-toc-modified-id="1.4.2.1-逻辑运算符号-1.4.2.1">1.4.2.1 逻辑运算符号</a></span></li><li><span><a href="#1.4.2.2-逻辑运算函数" data-toc-modified-id="1.4.2.2-逻辑运算函数-1.4.2.2">1.4.2.2 逻辑运算函数</a></span></li></ul></li><li><span><a href="#1.4.3-统计运算" data-toc-modified-id="1.4.3-统计运算-1.4.3">1.4.3 统计运算</a></span><ul class="toc-item"><li><span><a href="#1.4.3.1-describe" data-toc-modified-id="1.4.3.1-describe-1.4.3.1">1.4.3.1 describe</a></span></li><li><span><a href="#1.4.3.2-统计函数" data-toc-modified-id="1.4.3.2-统计函数-1.4.3.2">1.4.3.2 统计函数</a></span></li><li><span><a href="#1.4.3.3-累计统计函数" data-toc-modified-id="1.4.3.3-累计统计函数-1.4.3.3">1.4.3.3 累计统计函数</a></span></li></ul></li><li><span><a href="#1.4.4-自定义运算apply" data-toc-modified-id="1.4.4-自定义运算apply-1.4.4">1.4.4 自定义运算apply</a></span></li></ul></li></ul></li><li><span><a href="#2-Pandas-画图" data-toc-modified-id="2-Pandas-画图-2">2 Pandas 画图</a></span></li><li><span><a href="#3-Pandas-文件操作" data-toc-modified-id="3-Pandas-文件操作-3">3 Pandas 文件操作</a></span><ul class="toc-item"><li><span><a href="#3.1-CSV文件(或txt文件)" data-toc-modified-id="3.1-CSV文件(或txt文件)-3.1">3.1 CSV文件(或txt文件)</a></span><ul class="toc-item"><li><span><a href="#3.1.1-read_csv" data-toc-modified-id="3.1.1-read_csv-3.1.1">3.1.1 read_csv</a></span></li><li><span><a href="#3.1.2-to_csv" data-toc-modified-id="3.1.2-to_csv-3.1.2">3.1.2 to_csv</a></span></li></ul></li><li><span><a href="#3.2-数据库交互" data-toc-modified-id="3.2-数据库交互-3.2">3.2 数据库交互</a></span></li></ul></li></ul></div>
+</div>
+</div>
+</div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[1]:</div>
@@ -13088,55 +13101,6 @@ div#notebook {
 </div>
 </div>
 
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="Pandas-&#22522;&#30784;&#25805;&#20316;">Pandas &#22522;&#30784;&#25805;&#20316;<a class="anchor-link" href="#Pandas-&#22522;&#30784;&#25805;&#20316;">&#182;</a></h1><ul>
-<li><strong>1 Pandas基本数据操作</strong><ul>
-<li><strong>1.1 索引操作</strong><ul>
-<li>1.1.1 直接使用列行索引的名字</li>
-<li>1.1.2 结合loc和iloc使用索引</li>
-<li>1.1.3 组合使用索引</li>
-</ul>
-</li>
-<li><strong>1.2 赋值操作</strong></li>
-<li><strong>1.3 排序操作</strong><ul>
-<li>1.3.1 Series 排序</li>
-<li>1.3.2 DataFrame排序</li>
-</ul>
-</li>
-<li><strong>1.4 运算操作</strong><ul>
-<li>1.4.1 算术运算</li>
-<li>1.4.2 逻辑运算</li>
-<li>1.4.3 统计运算<ul>
-<li>1.4.3.1 describe</li>
-<li>1.4.3.2 统计函数</li>
-<li>1.4.3.3 累计统计函数</li>
-</ul>
-</li>
-<li>1.4.4 自定义运算apply</li>
-</ul>
-</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><strong>2 Pandas画图</strong><ul>
-<li>df.plot()</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li><strong>3 Pandas文件操作</strong><ul>
-<li>3.1 CSV文件(或txt文件)</li>
-<li>3.2 数据库交互</li>
-</ul>
-</li>
-</ul>
-
-</div>
-</div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
@@ -13176,7 +13140,7 @@ div#notebook {
 <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/stock_day.csv&quot;</span><span class="p">)</span>
 
 <span class="c1"># 删除一些列，让数据更简单些，方便理解</span>
-<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;ma5&#39;</span><span class="p">,</span><span class="s1">&#39;ma10&#39;</span><span class="p">,</span><span class="s1">&#39;ma20&#39;</span><span class="p">,</span><span class="s1">&#39;v_ma5&#39;</span><span class="p">,</span><span class="s1">&#39;v_ma10&#39;</span><span class="p">,</span><span class="s1">&#39;v_ma20&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+<span class="n">data</span> <span class="o">=</span> <span class="n">data</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;ma5&#39;</span><span class="p">,</span> <span class="s1">&#39;ma10&#39;</span><span class="p">,</span> <span class="s1">&#39;ma20&#39;</span><span class="p">,</span> <span class="s1">&#39;v_ma5&#39;</span><span class="p">,</span> <span class="s1">&#39;v_ma10&#39;</span><span class="p">,</span> <span class="s1">&#39;v_ma20&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
 <span class="n">data</span>
 </pre></div>
 
@@ -13435,7 +13399,7 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 使用loc:只能指定行列索引的名字</span>
-<span class="n">data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">&#39;2018-02-27&#39;</span><span class="p">:</span><span class="s1">&#39;2018-02-22&#39;</span><span class="p">,</span><span class="s1">&#39;open&#39;</span><span class="p">]</span>
+<span class="n">data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="s1">&#39;2018-02-27&#39;</span><span class="p">:</span><span class="s1">&#39;2018-02-22&#39;</span><span class="p">,</span> <span class="s1">&#39;open&#39;</span><span class="p">]</span>
 </pre></div>
 
     </div>
@@ -13579,7 +13543,7 @@ Name: open, dtype: float64</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 使用loc方式</span>
-<span class="n">data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">],[</span><span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;high&#39;</span><span class="p">,</span> <span class="s1">&#39;low&#39;</span><span class="p">]]</span>
+<span class="n">data</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="mi">4</span><span class="p">],</span> <span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">,</span> <span class="s1">&#39;high&#39;</span><span class="p">,</span> <span class="s1">&#39;low&#39;</span><span class="p">]]</span>
 </pre></div>
 
     </div>
@@ -15365,7 +15329,7 @@ Name: open, Length: 643, dtype: bool</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 筛选出&#39;open&#39;列包含23.53和23.85的数据</span>
-<span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="mf">23.53</span><span class="p">,</span><span class="mf">23.85</span><span class="p">])]</span>
+<span class="n">data</span><span class="p">[</span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">isin</span><span class="p">([</span><span class="mf">23.53</span><span class="p">,</span> <span class="mf">23.85</span><span class="p">])]</span>
 </pre></div>
 
     </div>
@@ -16448,7 +16412,7 @@ Name: p_change, Length: 643, dtype: float64</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 使用Pandas自带的画图api</span>
-<span class="n">stock_rise</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
+<span class="n">stock_rise</span><span class="o">.</span><span class="n">cumsum</span><span class="p">()</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -16601,7 +16565,7 @@ dtype: float64</pre>
 <div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span><span class="mi">8</span><span class="p">))</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">data</span><span class="p">[</span><span class="s1">&#39;close&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">plot</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">8</span><span class="p">))</span>
 </pre></div>
 
     </div>
@@ -16767,7 +16731,7 @@ dtype: float64</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 读取文件，并且只获取‘open’和‘close’列</span>
-<span class="n">data_csv</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/stock_day.csv&quot;</span><span class="p">,</span><span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">,</span><span class="s1">&#39;close&#39;</span><span class="p">])</span>
+<span class="n">data_csv</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;../data/stock_day.csv&quot;</span><span class="p">,</span> <span class="n">usecols</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">,</span> <span class="s1">&#39;close&#39;</span><span class="p">])</span>
 <span class="n">data_csv</span>
 </pre></div>
 
@@ -16904,7 +16868,8 @@ dtype: float64</pre>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># 选取10行数据保存</span>
-<span class="n">data_csv</span><span class="p">[:</span><span class="mi">10</span><span class="p">]</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;../data/test_csv.csv&#39;</span><span class="p">,</span><span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">],</span><span class="n">index_label</span><span class="o">=</span><span class="s1">&#39;date&#39;</span><span class="p">)</span>
+<span class="n">data_csv</span><span class="p">[:</span><span class="mi">10</span><span class="p">]</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span><span class="s1">&#39;../data/test_csv.csv&#39;</span><span class="p">,</span>
+                     <span class="n">columns</span><span class="o">=</span><span class="p">[</span><span class="s1">&#39;open&#39;</span><span class="p">],</span> <span class="n">index_label</span><span class="o">=</span><span class="s1">&#39;date&#39;</span><span class="p">)</span>
 </pre></div>
 
     </div>
@@ -17156,7 +17121,7 @@ dtype: float64</pre>
 <span class="n">sql</span> <span class="o">=</span> <span class="s1">&#39;select * from grade;&#39;</span>
 
 <span class="c1"># 读取表格</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql</span><span class="p">(</span><span class="n">sql</span><span class="p">,</span><span class="n">engine</span><span class="p">)</span>
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_sql</span><span class="p">(</span><span class="n">sql</span><span class="p">,</span> <span class="n">engine</span><span class="p">)</span>
 <span class="n">df</span>
 </pre></div>
 
