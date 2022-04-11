@@ -537,3 +537,12 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（1）字符串第4节：151.翻转字符串里的单词 medium
 
 2. 进行新冠疫情分析：pyecharts
+
+04.11
+1.leetcode_master
+	（1）字符串第5节：剑指Offer58-II.左旋转字符串 easy
+	
+	ToDO
+	（2）字符串第6节：28. 实现 strStr() KMP算法
+
+2. 整理了ARIMA和AR时间序列模型
