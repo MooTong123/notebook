@@ -546,3 +546,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 	（2）字符串第6节：28. 实现 strStr() KMP算法
 
 2. 整理了ARIMA和AR时间序列模型
+
+04.12
+1. 整理ARCH模型
+2. 新冠疫情分析
