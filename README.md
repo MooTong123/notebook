@@ -550,3 +550,9 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 04.12
 1. 整理ARCH模型
 2. 新冠疫情分析
+
+04.13
+1. 上海疫情预测
+2 .leetcode_master
+	ToDO 看完视频讲解
+	（1）字符串第6节：28. 实现 strStr() KMP算法
