@@ -556,3 +556,9 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 2 .leetcode_master
 	ToDO 看完视频讲解
 	（1）字符串第6节：28. 实现 strStr() KMP算法
+
+04.14
+1. 公安防治模型
+
+04.15
+1. 建模智慧政法
