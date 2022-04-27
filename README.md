@@ -568,3 +568,12 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 04.22-04.26
 1. 泰坦尼克号建模用户文档
+
+04.27
+1. 了解MLOps，deeplearning.ai 课程
+
+
+TODO：SDE接口
+1. 删模型
+2. 删算法
+
