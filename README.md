@@ -572,8 +572,6 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 04.27
 1. 了解MLOps，deeplearning.ai 课程
 
-
-TODO：SDE接口
-1. 删模型
-2. 删算法
+04.28
+1. 上MLOps课程，看到课程1：第一章：1.2 部署的部署模式，记录笔记
 
