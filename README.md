@@ -575,3 +575,11 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 04.28
 1. 上MLOps课程，看到课程1：第一章：1.2 部署的部署模式，记录笔记
 
+04.29
+1. MLOps，课程一，第一章，1.2部署 - pipeline monitoring
+
+05.05
+1. MLOps，课程一，第一章学完
+
+05.09
+1. MLOps，课程一，第一章编程练习
