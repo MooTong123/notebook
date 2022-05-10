@@ -583,3 +583,6 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 05.09
 1. MLOps，课程一，第一章编程练习
+
+05.10
+1. MLOps，课程一，第二章2.1 选择并训练一个模型
