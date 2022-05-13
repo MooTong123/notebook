@@ -586,3 +586,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 05.10
 1. MLOps，课程一，第二章2.1 选择并训练一个模型
+
+05.11-05.13
+1. 工作
+2. MLOps，课程一，第二章2.2-2.3 误差分析+数据迭代
