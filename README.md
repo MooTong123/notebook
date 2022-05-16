@@ -590,3 +590,6 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 05.11-05.13
 1. 工作
 2. MLOps，课程一，第二章2.2-2.3 误差分析+数据迭代
+
+05.16
+1. MLOps，课程一，第二章2.2 性能审计
