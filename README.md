@@ -595,4 +595,5 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. MLOps，课程一，第二章2.2 性能审计
 
 05.19
-1. autogluon文档 （TODO）
+1. autogluon文档
+2. MLOps书，阅读（TODO）
