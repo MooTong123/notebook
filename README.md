@@ -597,3 +597,12 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 05.19
 1. autogluon文档
 2. MLOps书，阅读（TODO）
+
+05.20
+1. autogluon文档
+2. MLOps书，阅读（TODO）
+
+05.23-05.27
+1. 居家隔离期间
+2. PGL选型测试
+3. 根据工作内容，学习django内容
