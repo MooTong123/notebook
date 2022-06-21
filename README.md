@@ -598,6 +598,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. autogluon文档
 2. MLOps书，阅读（TODO）
 
+<<<<<<< Updated upstream
 05.20
 1. autogluon文档
 2. MLOps书，阅读（TODO）
@@ -606,3 +607,10 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. 居家隔离期间
 2. PGL选型测试
 3. 根据工作内容，学习django内容
+=======
+05.20 -06.20
+1. 居家办公，摸鱼工作
+
+06.21
+1. AI自动化建模文档调研，做产品规划
+>>>>>>> Stashed changes
