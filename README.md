@@ -613,4 +613,9 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 06.21
 1. AI自动化建模文档调研，做产品规划
->>>>>>> Stashed changes
+
+06.22
+1. MLOps 书，整理结构笔记，保存在腾讯文档，整理到1.2
+
+06.23
+1. MLOps书，整理笔记
