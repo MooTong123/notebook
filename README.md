@@ -598,7 +598,6 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. autogluon文档
 2. MLOps书，阅读（TODO）
 
-<<<<<<< Updated upstream
 05.20
 1. autogluon文档
 2. MLOps书，阅读（TODO）
@@ -607,7 +606,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. 居家隔离期间
 2. PGL选型测试
 3. 根据工作内容，学习django内容
-=======
+
 05.20 -06.20
 1. 居家办公，摸鱼工作
 
@@ -618,4 +617,10 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. MLOps 书，整理结构笔记，保存在腾讯文档，整理到1.2
 
 06.23
-1. MLOps书，整理笔记
+1. MLOps书，整理笔记到1.3
+
+06.24
+1. MLOps书，整理笔记到1.4
+
+06.27 - 07.01
+1. 工作，整理文档
