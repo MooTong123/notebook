@@ -623,4 +623,4 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. MLOps书，整理笔记到1.4
 
 06.27 - 07.01
-1. 工作，整理文档
+1. 工作
