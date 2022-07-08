@@ -626,4 +626,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. 工作
 
 07.04
-1. 工作
+1. 沐神-codex论文精读
+
+07.05 - 07.08
+1. MLOps书，chapter3，代码更新
