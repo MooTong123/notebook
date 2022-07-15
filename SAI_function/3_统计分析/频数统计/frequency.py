@@ -1,13 +1,12 @@
 # -- coding: utf-8 --
 
-
 def execute(conn, inputs, params, outputs, reportFileName):
-    # <editable>
     '''
     载入模块
     '''
     import pandas as pd
     import db_utils
+    from collections import Counter
 
     '''
     选择目标数据
@@ -15,17 +14,13 @@ def execute(conn, inputs, params, outputs, reportFileName):
     data_in = db_utils.query(conn, 'select ' + params['columns'] + ' from ' + inputs['data_in'])
 
     '''
-    相关性分析
+    频数统计
     '''
-    data_out = data_in.corr(method=params['method'])
-    ind = pd.DataFrame({'ind': data_out.index})
-    ind.index = data_out.index
-    data_out = pd.concat([ind, data_out], axis=1)
-    data_out = data_out.round(3)
+    data = data_in[params['columns']]
+    data_out = pd.DataFrame.from_dict(Counter(data), orient='index').reset_index()
+    data_out.columns = [params['columns'], 'count']
+
     '''
     将结果写出
     '''
-
     db_utils.dbWriteTable(conn, outputs['data_out'], data_out)
-
-    # </editable>
