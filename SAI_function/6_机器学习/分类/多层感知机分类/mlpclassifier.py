@@ -1,8 +1,8 @@
 # -- coding: utf-8 --
 def execute(conn, inputs, params, outputs, reportFileName):
     '''
-    	载入模块
-    	'''
+    载入模块
+    '''
     import pyh
     import report_utils
     import db_utils
@@ -13,7 +13,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
     import warnings
     from sklearn.neural_network import MLPClassifier
     from sklearn.metrics import confusion_matrix, precision_recall_curve, roc_curve, auc, classification_report
-    from sklearn.preprocessing import label_binarize
+    from sklearn.preprocessing import label_binarize, Binarizer
     from itertools import cycle
 
     warnings.filterwarnings("ignore")
@@ -35,7 +35,6 @@ def execute(conn, inputs, params, outputs, reportFileName):
     '''
     构造模型 
     '''
-    # TODO
     if type(params['random_state']) != int:
         random_state = None
     else:
@@ -79,23 +78,27 @@ def execute(conn, inputs, params, outputs, reportFileName):
     '''
     报告
     '''
-    # TODO
     report.h1('多层感知机分类算法')
     model_params = {}
-    model_params['隐藏层神经元个数'] = params['hidden_layer_sizes']
-    model_params['隐层激活函数'] = params['activation']
-    model_params['求解器'] = params['solver']
-    model_params['最大迭代'] = params['max_iter']
-    model_params['L2惩罚（正则化项）参数'] = params['alpha']
-    model_params['权重更新的学习率'] = params['learning_rate']
+    model_params['神经元数目'] = params['hidden_layer_sizes']
+    model_params['激活函数'] = params['activation']
+    model_params['权重优化的求解器'] = params['solver']
+    model_params['最大迭代次数'] = params['max_iter']
     model_params['初始学习率'] = params['learning_rate_init']
-
+    model_params['更新学习率的方法'] = params['learning_rate']
+    model_params['L2惩罚（正则化项）参数'] = params['alpha']
+    model_params['随机种子'] = random_state if random_state is not None else 'None'
+    model_params['优化的容忍度'] = params['tol']
+    model_params['不符合优化的最大轮数'] = params['n_iter_no_change']
+    model_params['早停策略'] = 'True' if params['early_stopping'] else 'False'
+    model_params['验证集比例'] = params['validation_fraction']
     a = pd.DataFrame([model_params.keys(), model_params.values()]).T
     a.columns = ['参数名称', '参数值']
     report.h3('模型参数')
     report.p("输出配置的参数以及参数的取值。")
     report.table(a)
     report.writeToHtml(reportFileName)
+
     model_params = {}
     model_params['classes_'] = model.classes_
     model_params['loss_'] = np.around(model.loss_, decimals=6)
@@ -107,12 +110,11 @@ def execute(conn, inputs, params, outputs, reportFileName):
     report.table(a)
     report.writeToHtml(reportFileName)
 
-    cm = confusion_matrix(y_train, fit_label)  # 混淆矩阵
+    cm = confusion_matrix(y_train, fit_label)
     n_classes = len(cm)
-    n_classes
 
     if n_classes == 2:
-        cm = confusion_matrix(y_train, fit_label)  # 混淆矩阵
+        cm = confusion_matrix(y_train, fit_label)
         TP = cm[0][0]
         FN = cm[0][1]
         FP = cm[1][0]
@@ -134,16 +136,14 @@ def execute(conn, inputs, params, outputs, reportFileName):
         report.h3('模型评价指标')
         report.table(a)
         report.writeToHtml(reportFileName)
-        print(acc)
-        print(precision)
-        print(recall)
-        print(f1)
+        # print(acc)
+        # print(precision)
+        # print(recall)
+        # print(f1)
 
     if n_classes > 2:
-        from sklearn import preprocessing
-        import numpy as np
-        binarizer = preprocessing.Binarizer(threshold=0.5)
-        y_score = binarizer.transform(y_score)
+        # binarizer = Binarizer(threshold=0.5)
+        # y_score = binarizer.transform(y_score)
         target_names = class_names
         a = classification_report(y_train, fit_label, target_names=target_names)
         b = a.split('\n')
@@ -164,7 +164,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
     '''
     绘制混淆矩阵图
     '''
-    cm = confusion_matrix(y_train, fit_label)  # 混淆矩阵
+    cm = confusion_matrix(y_train, fit_label)
     plt.figure(figsize=(4, 4))
     plt.imshow(cm, interpolation='nearest', cmap=plt.cm.Blues)
     for x in range(len(cm)):
@@ -193,7 +193,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
     tpr：真正例率
     '''
     # setup plot details
-    colors = cycle(['navy', 'turquoise', 'darkorange', 'cornflowerblue', 'teal'])
+    # colors = cycle(['navy', 'turquoise', 'darkorange', 'cornflowerblue', 'teal'])
     y_fit = label_binarize(y_fit, classes=class_names)
 
     if n_classes == 2:
@@ -220,7 +220,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
 
     if n_classes == 2:
         fpr, tpr, _ = precision_recall_curve(y_binarize.ravel(), y_fit.ravel())
-        roc_auc = auc(fpr, tpr)
+        # roc_auc = auc(fpr, tpr)
         fpr[0] = 0
         plt.figure(figsize=(8, 4))
         lw = 2
@@ -246,7 +246,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
         # 首先将矩阵y_one_hot和y_score展开，然后计算假正例率FPR和真正例率TPR
         fpr, tpr, thresholds = roc_curve(y_binarize.ravel(), y_fit.ravel())
         auc = auc(fpr, tpr)
-        print('手动计算auc：', auc)  # 绘图
+        # print('手动计算auc：', auc)
         plt.figure(figsize=(8, 4))
         lw = 2
         plt.plot(fpr, tpr, label='ROC curve (area = %0.2f)' % auc)
@@ -260,9 +260,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
         plt.legend(loc="lower right")
         plt.savefig('roc.png')
         plt.show()
-
         report.h3('ROC图')
-
         report.p("如下图所示：AUC所占的面积是" + str(np.around(auc, decimals=2)))
         report.image('roc.png')
 

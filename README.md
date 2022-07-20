@@ -640,3 +640,6 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 07.19
 1. MLP算子整理
+
+07.20
+1. LR，NB，KNN算子开发
