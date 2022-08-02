@@ -638,3 +638,6 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 07.18 - 07.29
 1. 算子整理：（1）分类:逻辑回归、决策树、MLP、NB、SVM、KNN
 			 （2）回归：决策树、Lasso
+
+08.01 - 08.02
+1. MLOps书，chapter3，代码更新到3.6 特征工程
