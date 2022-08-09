@@ -643,4 +643,15 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. MLOps书，chapter3，代码更新到3.6 特征工程
 
 08.03
-1. MLOps书，chapter3，代码更新到3.9 REST API
+1. MLOps书，chapter3 整理到3.9
+
+08.04
+1. MLOps书，chapter3 整理完
+
+08.05
+1. MLOps书，chapter4 整理到4.1
+
+08.08
+1. MLOps书，chapter 整理到4.2
+
+08.09
