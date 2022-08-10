@@ -655,3 +655,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. MLOps书，chapter 整理到4.2
 
 08.09
+1. MLOps书，chapter 整理到4.3
+
+08.10
+1. MLOps书，chapter 整理到4.4.整理完Chapter4
