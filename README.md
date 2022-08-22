@@ -659,3 +659,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 08.10
 1. MLOps书，chapter 整理到4.4.整理完Chapter4
+
+8.11-8.19
+1. 工作
+
