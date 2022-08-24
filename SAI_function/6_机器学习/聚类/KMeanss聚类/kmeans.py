@@ -3,6 +3,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
     '''
     载入模块
     '''
+    import os
     import pyh
     import report_utils
     import db_utils
@@ -12,10 +13,12 @@ def execute(conn, inputs, params, outputs, reportFileName):
     import matplotlib.pyplot as plt
     from collections import Counter
     from sklearn.manifold import TSNE
-    from sklearn.cluster import AgglomerativeClustering
+    from sklearn.cluster import KMeans
 
-    warnings.filterwarnings('ignore')
+    # mulu = os.getcwd()
+    warnings.filterwarnings("ignore")
     report = report_utils.Report()
+
     plt.rcParams['font.sans-serif'] = ['SimHei']
     plt.rcParams['axes.unicode_minus'] = False
 
@@ -26,20 +29,16 @@ def execute(conn, inputs, params, outputs, reportFileName):
     data_in = data_in.select_dtypes(include=['number'])
 
     '''
-    层次聚类
+    建立模型
     '''
-    if params['n_clusters'] == 'None':
-        n_clusters = None
+    if type(params['random_state']) != int:
+        random_state = None
     else:
-        n_clusters = int(params['n_clusters'])
+        random_state = int(params['random_state'])
 
-    if params['distance_threshold'] == 'None':
-        distance_threshold = None
-    else:
-        distance_threshold = float(params['distance_threshold'])
-
-    model = AgglomerativeClustering(n_clusters=n_clusters, affinity=params['affinity'], linkage=params['linkage'],
-                                    distance_threshold=distance_threshold)
+    model = KMeans(n_clusters=int(params['n_clusters']), n_init=int(params['n_init']),
+                          max_iter=int(params['max_iter']), init=params['init'], tol=float(params['tol']),
+                          random_state=random_state, algorithm=params['algorithm'])
 
     '''
     模型训练与拟合
@@ -49,7 +48,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
     '''
     模型参数
     '''
-    report.h1('层次聚类')
+    report.h1('K-Means算法')
     a = pd.DataFrame([params.keys(), params.values()]).T
     a.columns = ['参数名称', '参数值']
     report.h3('模型参数')
@@ -65,22 +64,19 @@ def execute(conn, inputs, params, outputs, reportFileName):
     data_out = pd.DataFrame(data_out, columns=columns)
 
     '''
-    输出聚类属性
+    输出聚类中心
     '''
-    model_params = {}
-    model_params['n_connected_components_'] = model.n_connected_components_
-    model_params['n_leaves_'] = model.n_leaves_
-    a = pd.DataFrame([model_params.keys(), model_params.values()]).T
-    a.columns = ['参数名称', '参数值']
-    report.h3('模型属性')
-    report.p("输出模型的属性信息。")
-    report.table(a)
+    cluster_centers = pd.DataFrame(np.around(model.cluster_centers_, decimals=6))
+    cluster_centers.columns = data_in.columns
+    row_name = pd.DataFrame(list(np.arange(1, int(params['n_clusters']) + 1)), columns=['cluster_id'])
+    cluster_centers = pd.concat([row_name, cluster_centers], axis=1)
+    report.h3('聚类中心坐标：')
+    report.table(cluster_centers)
 
     '''
     饼图结果概况
     '''
-    lable_res = pd.Series(fit_label)
-    lable_res = lable_res.value_counts()
+    lable_res = pd.Series(fit_label).value_counts()
     lable_res = pd.DataFrame(lable_res)
     lable_res['group'] = lable_res.index
     lable_res['group'] = lable_res['group'].apply(lambda x: 'group' + str(x))
@@ -100,7 +96,8 @@ def execute(conn, inputs, params, outputs, reportFileName):
             shadow=True, labeldistance=1.1,
             startangle=180,
             pctdistance=0.6,
-            radius=2.5)
+            radius=2.5
+            )
     plt.axis('equal')
     plt.title('pie')
     plt.legend(loc=0, bbox_to_anchor=(0.92, 1))
@@ -126,6 +123,37 @@ def execute(conn, inputs, params, outputs, reportFileName):
     report.image('pie.png')
 
     '''
+    雷达图
+    '''
+    # data_len = len(cluster_centers)
+    # a = cluster_centers.iloc[:, 1:]
+    # data = np.array(a.iloc[0])
+    # labels = a.columns
+    # kinds = list(a.index)
+    # b = []
+    #
+    # for kind in kinds:
+    #     b.append('Cluster_grouping_' + str(kind))
+    # fig = plt.figure(figsize=(8, 6))
+    # for i in range(0, len(cluster_centers)):
+    #     data = np.array(a.iloc[i])
+    #     angles = np.linspace(0, 2 * np.pi, len(labels), endpoint=False)
+    #     data = np.concatenate((data, [data[0]]))  # 闭合
+    #     angles = np.concatenate((angles, [angles[0]]))  # 闭合
+    #     ax = fig.add_subplot(111, polar=True)  # polar参数！！
+    #     ax.plot(angles, data, linewidth=2.0, label=b[i])  # 画线
+    #     ax.set_thetagrids(angles * 180 / np.pi, labels, fontproperties="SimHei")
+    #     ax.set_title("\nradar chart\n")
+    #     ax.set_rlim(a.min().min(), a.max().max())  # 设置雷达图的范围
+    #     ax.grid(True)
+    #     plt.legend(loc='lower right')
+    # plt.savefig("Rader.png")
+    # plt.show()
+    # report.h3('雷达图示例')
+    # report.p('雷达图在每个属性上的大小反应的是每个分群中该特征的优势和劣势。')
+    # report.image('Rader.png')
+
+    '''
     散点图示例
     '''
     out = data_in
@@ -136,7 +164,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
         x = tsne[:, 0]
         y = tsne[:, 1]
         plt.scatter(x, y, c=out['label'])
-        plt.title("层次聚类\n")
+        plt.title("KMeans聚类\n")
         plt.savefig('scatter.png')
         plt.show()
         report.h3('散点图示例')
@@ -146,6 +174,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
     '''
     将结果写出
     '''
-    report.writeToHtml(reportFileName)
+    # os.chdir(mulu)
     db_utils.dbWriteTable(conn, outputs['data_out'], data_out)
+    report.writeToHtml(reportFileName)
     return model
