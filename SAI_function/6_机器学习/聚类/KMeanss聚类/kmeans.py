@@ -3,19 +3,15 @@ def execute(conn, inputs, params, outputs, reportFileName):
     '''
     载入模块
     '''
-    import os
-    import pyh
     import report_utils
     import db_utils
     import warnings
     import numpy as np
     import pandas as pd
     import matplotlib.pyplot as plt
-    from collections import Counter
     from sklearn.manifold import TSNE
     from sklearn.cluster import KMeans
 
-    # mulu = os.getcwd()
     warnings.filterwarnings("ignore")
     report = report_utils.Report()
 
@@ -86,8 +82,8 @@ def execute(conn, inputs, params, outputs, reportFileName):
     b = []
     for i in range(len(lable_res)):
         b.append(0.1)
-    labels = pd.Series(lable_res['group']).unique()
-    fracs = list(Counter(lable_res[0]))
+    labels = pd.Series(lable_res['group'])
+    fracs = pd.Series(lable_res[0])
 
     plt.axes(aspect=1)
     plt.pie(x=fracs, labels=labels,
@@ -164,7 +160,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
         x = tsne[:, 0]
         y = tsne[:, 1]
         plt.scatter(x, y, c=out['label'])
-        plt.title("KMeans聚类\n")
+        plt.title("scatter\n")
         plt.savefig('scatter.png')
         plt.show()
         report.h3('散点图示例')
@@ -174,7 +170,6 @@ def execute(conn, inputs, params, outputs, reportFileName):
     '''
     将结果写出
     '''
-    # os.chdir(mulu)
     db_utils.dbWriteTable(conn, outputs['data_out'], data_out)
     report.writeToHtml(reportFileName)
     return model

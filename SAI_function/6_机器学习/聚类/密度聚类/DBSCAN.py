@@ -8,15 +8,14 @@ def execute(conn, inputs, params, outputs, reportFileName):
     import warnings
     import numpy as np
     import pandas as pd
+    from sklearn.cluster import DBSCAN
     import matplotlib.pyplot as plt
-    from collections import Counter
     from sklearn.manifold import TSNE
-    from sklearn.cluster import AgglomerativeClustering
 
     warnings.filterwarnings('ignore')
     report = report_utils.Report()
-    plt.rcParams['font.sans-serif'] = ['SimHei']
-    plt.rcParams['axes.unicode_minus'] = False
+    plt.rcParams['font.sans-serif'] = ['SimHei']  # 用来正常显示中文标签
+    plt.rcParams['axes.unicode_minus'] = False  # 用来正常显示负号
 
     '''
     选择目标数据
@@ -25,20 +24,10 @@ def execute(conn, inputs, params, outputs, reportFileName):
     data_in = data_in.select_dtypes(include=['number'])
 
     '''
-    层次聚类
+    密度聚类
     '''
-    if params['n_clusters'] == 'None':
-        n_clusters = None
-    else:
-        n_clusters = int(params['n_clusters'])
-
-    if params['distance_threshold'] == 'None':
-        distance_threshold = None
-    else:
-        distance_threshold = float(params['distance_threshold'])
-
-    model = AgglomerativeClustering(n_clusters=n_clusters, affinity=params['affinity'], linkage=params['linkage'],
-                                    distance_threshold=distance_threshold)
+    model = DBSCAN(eps=float(params['eps']), min_samples=int(params['min_samples']), algorithm=params['algorithm'],
+                   leaf_size=int(params['leaf_size']))
 
     '''
     模型训练与拟合
@@ -46,9 +35,9 @@ def execute(conn, inputs, params, outputs, reportFileName):
     model.fit(data_in)
 
     '''
-    模型参数
+    报告
     '''
-    report.h1('层次聚类')
+    report.h1('DBSCAN密度聚类')
     a = pd.DataFrame([params.keys(), params.values()]).T
     a.columns = ['参数名称', '参数值']
     report.h3('模型参数')
@@ -62,18 +51,6 @@ def execute(conn, inputs, params, outputs, reportFileName):
     columns = np.append(data_in.columns, params['add_col'])
     data_out = np.column_stack((data_in, fit_label))
     data_out = pd.DataFrame(data_out, columns=columns)
-
-    '''
-    输出聚类属性
-    '''
-    model_params = {}
-    model_params['n_connected_components_'] = model.n_connected_components_
-    model_params['n_leaves_'] = model.n_leaves_
-    a = pd.DataFrame([model_params.keys(), model_params.values()]).T
-    a.columns = ['参数名称', '参数值']
-    report.h3('模型属性')
-    report.p("输出模型的属性信息。")
-    report.table(a)
 
     '''
     饼图结果概况
@@ -99,12 +76,11 @@ def execute(conn, inputs, params, outputs, reportFileName):
             shadow=True, labeldistance=1.1,
             startangle=180,
             pctdistance=0.6,
-            radius=2.5)
+            radius=2.5
+            )
     plt.axis('equal')
     plt.title('pie')
     plt.legend(loc=0, bbox_to_anchor=(0.92, 1))
-
-    # 设置legend的字体大小
     leg = plt.gca().get_legend()
     ltext = leg.get_texts()
     plt.setp(ltext, fontsize=6)
@@ -114,7 +90,7 @@ def execute(conn, inputs, params, outputs, reportFileName):
     report.h3('饼图结果概况')
     string = '由饼图可以看出，总共分为' + str(len(lable_res)) + '个聚类分群，分别是：'
     for i in range(len(lable_res)):
-        if i < len(lable_res) - 1:
+        if (i < len(lable_res) - 1):
             string = string + lable_res.loc[i][1] + "、"
         else:
             string = string + lable_res.loc[i][1] + "。"
@@ -135,14 +111,14 @@ def execute(conn, inputs, params, outputs, reportFileName):
         x = tsne[:, 0]
         y = tsne[:, 1]
         plt.scatter(x, y, c=out['label'])
-        plt.title("scatter\n")
+        plt.title("scatter\n");
         plt.savefig('scatter.png')
         plt.show()
         report.h3('散点图示例')
         report.p('通过对数据进行降维，在二维空间中展示的聚类结果。')
         report.image('scatter.png')
 
-    '''
+    ''' 
     将结果写出
     '''
     report.writeToHtml(reportFileName)
