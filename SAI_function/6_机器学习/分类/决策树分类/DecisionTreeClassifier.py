@@ -120,8 +120,8 @@ def execute(conn, inputs, params, outputs, reportFileName):
     report.h3('模型参数')
     report.p("输出配置的参数以及参数的取值。")
     report.table(a)
-    model_params = {'模型分类': model.n_classes_, '模型特征数': model.n_features_}
 
+    model_params = {'模型分类': model.n_classes_, '模型特征数': model.n_features_}
     a = pd.DataFrame([model_params.keys(), model_params.values()]).T
     a.columns = ['参数名称', '参数值']
     report.h3('模型属性')
