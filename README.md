@@ -660,7 +660,11 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 08.10
 1. MLOps书，chapter 整理到4.4.整理完Chapter4
 
-08.11-09.01
+08.11-09.02
 1. 算子整理：（1）回归：线性回归，SVM回归
 			（2）聚类：KMeans聚类，层次聚类，DBSCAN密度聚类
 			（3）时序模型：自回归模型（AR），移动平均模型（MA）
+
+09.05-09.09
+1. paddleNLP 流程整理：（1）文本分类（2）情感分析（3）词法分析（4）文本匹配
+2. paddleClas 学习：（1）安装环境（2）demo测试
