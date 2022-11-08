@@ -689,3 +689,6 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 10.31-11.4
 1. 自动机器学习 nlp：（1）文本分类（2）情感识别
+
+11.7 - 11.8
+1. 自动机器学习 nlp：（1）情感识别
