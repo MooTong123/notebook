@@ -710,3 +710,14 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 
 12.19 - 12.23
 1. 优化仿真python实现：（1）线性规划 pulp（2）非线性规划 cvxpy
+
+12.26 - 12.30
+1.仿真优化python实现调研：（1）分支定界算法（2）遗传算法（3）cplex和gurobi求解器（4）仿真模拟 simpy
+
+
+2023年
+01.03 - 01.06
+1. 自动机器学习-nlp 完成：（1）训练评估预测的接口
+
+01.09 - 01.13
+1. 自动机器学习 CV: （1)图像识别-paddleclas-PULC工具
