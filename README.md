@@ -720,4 +720,7 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 1. 自动机器学习-nlp 完成：（1）训练评估预测的接口
 
 01.09 - 01.13
-1. 自动机器学习 CV: （1)图像识别-paddleclas-PULC工具
+1. 自动机器学习 CV: （1)图像分类-paddleclas-PULC工具
+
+01.16 - 01.20
+1. 自动机器学习 CV: （1)图像分类-PULC 9大场景的整理
