@@ -741,6 +741,14 @@ https://docs.qq.com/mind/DY2RZRlJqeGdiZG5n
 02.27 - 03.03
 1. 自动化建模-模型市场-部署API：（1）ML相关接口，server.py（2）打镜像,dockerfile
 
+03-05
+1. 完成工作任务
+
+
+05.19
+1. 开始学习沐神的《动手学深度学习》https://courses.d2l.ai/zh-v2/
+
+
 
 
 
